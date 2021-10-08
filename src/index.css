@@ -1,13 +1,143 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 auto;
+  background-color: #0a192f;
+  font-family: 'Space Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn-link {
+  color: #64ffda;
+  background-color: transparent;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  padding: 14px 20px;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  width: auto;
+  text-align: center;
+
+}
+
+.btn-link:hover {
+  background-color: #305886b7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.title h3 {
+  font-size: 26px;
+  width: auto;
+  margin: 0;
+  color: #ccd6f6;
+}
+
+.title h3 span {
+  color: #64ffda;
+}
+
+.horizontal-line {
+  width: 20%;
+  height: 1px;
+  margin: 0px;
+  margin-left: 30px;
+  background-color: #a8b2d1;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  position: absolute;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-and-right-bar {
+  display: flex;
+  width: 10%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.hoverLink:hover {
+  color: #64ffda;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hoverLink a:hover {
+  color: #64ffda;
+  text-decoration: none;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+span {
+  font-weight: normal;
+}
+
+
+@media (min-width:0) and (max-width:446.9px) {
+  .content {
+    width: 100%;
+    padding-top: 120px;
+  }
+
+  .title h3 {
+    font-size: 23px;
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .content {
+    width: 90%;
+    padding-top: 120px;
+  }
+
+  .title h3 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .title h3 {
+    font-size: 25px;
+  }
 }

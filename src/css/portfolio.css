@@ -1,0 +1,195 @@
+.portfolio .my-projects {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+
+.portfolio .my-projects a {
+  margin: 0;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 30%;
+}
+
+.portfolio .my-projects .project-item {
+  height: 420px;
+  background-color: #112240;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0;
+  cursor: pointer;
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.portfolio .my-projects .project-item:hover {
+  transform: translateY(-8px);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.portfolio .my-projects .project-item:hover .project-item-name h4 {
+  color: #64ffda;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.portfolio .my-projects .project-item .project-item-icon {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-folder span {
+  padding: 10px;
+  padding-left: 0;
+  font-size: 40px;
+  cursor: pointer;
+  color: #64ffda;
+}
+
+.icon-source a {
+  text-decoration: none;
+  margin: 0 !important;
+  padding: 10px;
+}
+
+.icon-source span {
+  font-size: 20px;
+  color: #a8b2d1;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.project-item-name {
+  height: 60%;
+  width: 100%;
+}
+
+.project-item-name h4 {
+  font-size: 20px;
+  color: #a8b2d1;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+}
+
+.project-item-name p {
+  color: #8792af;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.project-item-technologies {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.project-item-technologies p {
+  margin-right: 15px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #8792af;
+}
+
+/* ================== */
+
+@media (min-width:0) and (max-width:446.9px) {
+  .portfolio .my-projects {
+    flex-direction: column;
+  }
+
+  .portfolio .my-projects a {
+    width: 100%;
+  }
+
+  .portfolio .my-projects .project-item {
+    height: 400px;
+  }
+
+  .project-item-name h4 {
+    font-size: 18px;
+  }
+
+  .project-item-name p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .portfolio .my-projects a {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .portfolio .my-projects .project-item {
+    height: 300px;
+  }
+
+  .project-item-name h4 {
+    font-size: 18px;
+  }
+
+  .project-item-name p {
+    font-size: 14px;
+  }
+
+  .project-item-technologies p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .portfolio .my-projects a {
+    width: 45%;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .portfolio .my-projects .project-item {
+    height: 400px;
+  }
+
+  .project-item-name h4 {
+    font-size: 20px;
+  }
+
+  .project-item-name p {
+    font-size: 15px;
+  }
+
+  .project-item-technologies p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .portfolio .my-projects a {
+    width: 45%;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .portfolio .my-projects .project-item {
+    height: 320px;
+  }
+
+  .project-item-name h4 {
+    font-size: 20px;
+  }
+
+  .project-item-name p {
+    font-size: 15px;
+  }
+
+  .project-item-technologies p {
+    font-size: 13px;
+  }
+}
