@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import { animateDown } from '../App'
 import '../css/navbar.css'
 import logo from '../logo/LogoMakr-2dsx6X.png'
