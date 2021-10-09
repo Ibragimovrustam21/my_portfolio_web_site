@@ -74,10 +74,7 @@ p {
 .content {
   width: 80%;
   margin: 0 auto;
-  position: absolute;
-  height: 100vh;
-  left: 0;
-  right: 0;
+  height: auto;
   padding: 0 20px;
   box-sizing: border-box;
   padding-top: 150px;
