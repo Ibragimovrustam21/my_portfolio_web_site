@@ -71,6 +71,13 @@ p {
   background-color: #a8b2d1;
 }
 
+.vertical-line {
+  width: 1px;
+  height: 20%;
+  margin: 0px auto;
+  background-color: #a8b2d1;
+}
+
 .content {
   width: 80%;
   margin: 0 auto;
@@ -84,6 +91,7 @@ p {
 
 .left-and-right-bar {
   display: flex;
+  height: 100%;
   width: 10%;
   height: 100vh;
   flex-direction: column;
