@@ -12,7 +12,7 @@ export const Portfolio = () => {
       <div className='my-projects'>
         <ProjectItem
           title='Olmo.uz - Software, App, Start up web site (clone)'
-          text='Этот сайт сделано во время стажировки.Сайт не адаптивным состояние.'
+          text='Этот сайт сделано во время стажировки.Сайт в адаптивным состояние.'
           technologies={['Material ui','React']}
           url={'https://olmointernship.netlify.app/'}
           urlGithub={'https://github.com/Ibragimovrustam21/olmo'}
