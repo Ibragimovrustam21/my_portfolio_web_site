@@ -2,7 +2,6 @@
   /* border: 1px solid #fff; */
   width: 80%;
   margin: 0 auto;
-  position: absolute;
   height: 100vh;
   left: 10%;
   right: 10%;
@@ -43,12 +42,9 @@
   .home-page {
     width: 80%;
     margin: 0 auto;
-    position: absolute;
     padding: 0;
     height: 100vh;
     padding-top: 120px;
-    right: 0;
-    left: 0;
     overflow: hidden !important;
   }
 
@@ -77,12 +73,9 @@
   .home-page {
     width: 80%;
     margin: 0 auto;
-    position: absolute;
     padding: 0;
     height: 100vh;
     padding-top: 120px;
-    right: 0;
-    left: 0;
     overflow: hidden !important;
   }
 
@@ -112,12 +105,9 @@
   .home-page {
     width: 80%;
     margin: 0 auto;
-    position: absolute;
     padding: 0;
     height: 100vh;
     padding-top: 120px;
-    right: 0;
-    left: 0;
     overflow: hidden !important;
   }
 
@@ -147,12 +137,9 @@
   .home-page {
     width: 80%;
     margin: 0 auto;
-    position: absolute;
     padding: 0;
     height: 100vh;
     padding-top: 120px;
-    right: 0;
-    left: 0;
     overflow: hidden !important;
   }
 

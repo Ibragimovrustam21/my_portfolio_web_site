@@ -102,9 +102,9 @@ header {
 .blur-background{
   position: absolute;
   top: 0;
-  right: 0;
-  left: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
   background-color:#0b1629 ;
   opacity: 0.7;
   transform: translateX(-100%);
