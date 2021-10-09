@@ -11,7 +11,7 @@ const Navbar = () => {
     let head = document.querySelector('header')
     head.classList.toggle('sticky', window.scrollY > 0)
   })
-
+  
   const navActive = () => {
     const hamburger = document.querySelector(".hamburger");
     const navMenu = document.querySelector(".navbar-menu-group");
