@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { animateDown } from '../App'
 import '../css/navbar.css'
 import logo from '../logo/LogoMakr-2dsx6X.png'
@@ -25,30 +26,30 @@ const Navbar = ({ history }) => {
     <header className={path}>
       <div className='navbar'>
         <div className='navbar-logo-brand'>
-          <a href='/'>
+          <Link to='/'>
             <img alt='' src={logo} />
-          </a>
+          </Link>
         </div>
         <div className='navbar-menu-group'>
           <div className='navbar-menu-item'>
             <div>
-              <h4 className='hoverLink' {...animateDown} data-aos-duration="600">
-                <a href='/' ><span>01.</span> Главный</a>
+              <h4 className='hoverLink' onClick={navActive} {...animateDown} data-aos-duration="600">
+                <Link to='/' ><span>01.</span> Главный</Link>
               </h4>
             </div>
             <div>
-              <h4 className='hoverLink' {...animateDown} data-aos-duration="800">
-                <a href='/about' ><span>02.</span> Про меня</a>
+              <h4 className='hoverLink' onClick={navActive} {...animateDown}  data-aos-duration="800">
+                <Link to='/about' ><span>02.</span> Про меня</Link>
               </h4>
             </div>
             <div>
-              <h4 className='hoverLink' {...animateDown} data-aos-duration="1000">
-                <a href='/portfolio' className=''><span>03.</span> Портфолио</a>
+              <h4 className='hoverLink' onClick={navActive} {...animateDown} data-aos-duration="1000">
+                <Link to='/portfolio' className=''><span>03.</span> Портфолио</Link>
               </h4>
             </div>
             <div>
-              <h4 className='hoverLink' {...animateDown} data-aos-duration="1200">
-                <a href='/faqs' ><span>04.</span> Вопросы</a>
+              <h4 className='hoverLink' onClick={navActive} {...animateDown} data-aos-duration="1200">
+                <Link to='/faqs' ><span>04.</span> Вопросы</Link>
               </h4>
             </div>
           </div>
