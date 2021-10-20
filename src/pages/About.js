@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/about.css'
-import { animateUp } from '../App';
+import { animateLeft, animateUp } from '../App';
 import user_img from '../user photo/photo_2021-10-18_06-27-00.jpg'
 
 export const About = () => (
@@ -31,7 +31,7 @@ export const About = () => (
         </ul>
       </div>
       <div className='my-photo'>
-        <img src={user_img} alt='' />
+        <img src={user_img} alt='' {...animateLeft} data-aos-duration='800' />
       </div>
     </div>
   </div>
