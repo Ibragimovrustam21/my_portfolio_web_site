@@ -35,6 +35,15 @@ export const Portfolio = () => (
         urlGithub={'https://github.com/Ibragimovrustam21/Weather_App_React/tree/weather'}
         animeTime={'1200'}
       />
+      <ProjectItem
+        title='Todo App(Typescript)'
+        text='Это простое приложение, которое вы можете создаст `todo`.'
+        adaptive={'Приложение в адаптивным состояние.'}
+        technologies={['Materialize', 'React']}
+        url={'https://todoappts.netlify.app/'}
+        urlGithub={'https://github.com/Ibragimovrustam21/todo_app_typescript/tree/todo'}
+        animeTime={'1400'}
+      />
     </div>
   </div>
 );
