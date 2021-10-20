@@ -99,13 +99,13 @@ header {
   margin: 0 10px;
 }
 
-.blur-background{
+.blur-background {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color:#0b1629 ;
+  background-color: #0b1629;
   opacity: 0.7;
   transform: translateX(-100%);
   transition: all 0.7s ease;
@@ -113,13 +113,15 @@ header {
   backdrop-filter: blur(10px);
   z-index: 3;
 }
-.blur-back-show{
+
+.blur-back-show {
   transform: translateX(0%);
   transition: all 0.7s ease;
   filter: blur(10px);
 }
 
 @media only screen and (max-width: 990px) {
+  
   .navbar-menu-group {
     position: absolute;
     background-color: #112240;
@@ -183,8 +185,6 @@ header {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-
-
 }
 
 @media (min-width:0) and (max-width:446.9px) {

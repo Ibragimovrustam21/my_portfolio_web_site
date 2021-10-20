@@ -11,15 +11,19 @@ const Navbar = () => {
     let head = document.querySelector('header')
     head.classList.toggle('sticky', window.scrollY > 0)
   })
-  
-  const navActive = () => {
-    const hamburger = document.querySelector(".hamburger");
-    const navMenu = document.querySelector(".navbar-menu-group");
-    const blurback = document.querySelector('.blur-background')
 
-    blurback.classList.toggle("blur-back-show")
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("nav-active");
+  const navActive = () => {
+    console.log(window.innerWidth < 990);
+    if (window.innerWidth < 990) {
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".navbar-menu-group");
+      const blurback = document.querySelector('.blur-background')
+
+      blurback.classList.toggle("blur-back-show")
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("nav-active");
+    }
+
   }
   return (
     <>
@@ -35,22 +39,22 @@ const Navbar = () => {
             <div className='navbar-menu-item'>
               <div>
                 <h4 className='hoverLink'  {...animateDown} data-aos-duration="600">
-                  <Link to='/' ><span>01.</span> Главный</Link>
+                  <Link to='/' onClick={navActive}><span>01.</span> Главный</Link>
                 </h4>
               </div>
               <div>
                 <h4 className='hoverLink' {...animateDown} data-aos-duration="800">
-                  <Link to='/about' ><span>02.</span> Про меня</Link>
+                  <Link to='/about' onClick={navActive} ><span>02.</span> Про меня</Link>
                 </h4>
               </div>
               <div>
                 <h4 className='hoverLink'  {...animateDown} data-aos-duration="1000">
-                  <Link to='/portfolio' className=''><span>03.</span> Портфолио</Link>
+                  <Link to='/portfolio' onClick={navActive}><span>03.</span> Портфолио</Link>
                 </h4>
               </div>
               <div>
                 <h4 className='hoverLink' {...animateDown} data-aos-duration="1200">
-                  <Link to='/faqs' ><span>04.</span> Вопросы</Link>
+                  <Link to='/faqs' onClick={navActive}><span>04.</span> Вопросы</Link>
                 </h4>
               </div>
             </div>
