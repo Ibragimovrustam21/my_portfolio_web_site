@@ -21,10 +21,6 @@ const Navbar = () => {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("nav-active");
   }
-
-
-
-
   return (
     <>
       <div className='blur-background'></div>
@@ -38,22 +34,22 @@ const Navbar = () => {
           <div className='navbar-menu-group'>
             <div className='navbar-menu-item'>
               <div>
-                <h4 className='hoverLink' onClick={navActive} {...animateDown} data-aos-duration="600">
+                <h4 className='hoverLink'  {...animateDown} data-aos-duration="600">
                   <Link to='/' ><span>01.</span> Главный</Link>
                 </h4>
               </div>
               <div>
-                <h4 className='hoverLink' onClick={navActive} {...animateDown} data-aos-duration="800">
+                <h4 className='hoverLink' {...animateDown} data-aos-duration="800">
                   <Link to='/about' ><span>02.</span> Про меня</Link>
                 </h4>
               </div>
               <div>
-                <h4 className='hoverLink' onClick={navActive} {...animateDown} data-aos-duration="1000">
+                <h4 className='hoverLink'  {...animateDown} data-aos-duration="1000">
                   <Link to='/portfolio' className=''><span>03.</span> Портфолио</Link>
                 </h4>
               </div>
               <div>
-                <h4 className='hoverLink' onClick={navActive} {...animateDown} data-aos-duration="1200">
+                <h4 className='hoverLink' {...animateDown} data-aos-duration="1200">
                   <Link to='/faqs' ><span>04.</span> Вопросы</Link>
                 </h4>
               </div>
