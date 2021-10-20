@@ -2,7 +2,7 @@ import React from 'react';
 import { animateUp } from '../App';
 
 
-export const ProjectItem = ({ title, text, technologies, url, urlGithub, animeTime }) =>(
+export const ProjectItem = ({ title, text, technologies, url, urlGithub, animeTime,adaptive }) =>(
   <a href={url} {...animateUp} data-aos-duration={animeTime}>
     <div className='project-item'>
       <div className='project-item-icon'>
@@ -16,7 +16,7 @@ export const ProjectItem = ({ title, text, technologies, url, urlGithub, animeTi
       </div>
       <div className='project-item-name'>
         <h4 className='hoverLink'>{title}</h4>
-        <p>{text}</p>
+        <p>{text}<span>{adaptive}</span></p>
       </div>
       <div className='project-item-technologies'>
         {technologies.map(item => {

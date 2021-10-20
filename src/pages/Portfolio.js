@@ -11,7 +11,8 @@ export const Portfolio = () => (
     <div className='my-projects'>
       <ProjectItem
         title='Olmo.uz - Software, App, Start up web site (clone)'
-        text='Этот сайт сделано во время стажировки.Сайт в адаптивным состояние.'
+        text='Этот сайт сделано во время стажировки.'
+        adaptive={'Сайт в адаптивным состояние.'}
         technologies={['Material ui', 'React']}
         url={'https://olmointernship.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/olmo'}
@@ -19,7 +20,8 @@ export const Portfolio = () => (
       />
       <ProjectItem
         title='Rizon.uz'
-        text=' Первая компания в Узбекистане, которая производит широкий спектр коллоидных минералов на основе нанотехнологий.Сайт не адаптивным состояние.'
+        text=' Первая компания в Узбекистане, которая производит широкий спектр коллоидных минералов на основе нанотехнологий.'
+        adaptive={'Сайт не адаптивным состояние.'}
         technologies={['Material ui', 'React']}
         url={'https://rizon.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/RizonUz/tree/rizon'}
