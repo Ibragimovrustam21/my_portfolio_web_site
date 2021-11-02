@@ -13,7 +13,7 @@ export const Portfolio = () => (
         title='Olmo.uz - Software, App, Start up web site (clone)'
         text='Этот сайт сделано во время стажировки.'
         adaptive={'Сайт в адаптивным состояние.'}
-        technologies={['Material ui', 'React']}
+        technologies={['React', 'Material ui']}
         url={'https://olmointernship.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/olmo'}
         animeTime={'800'}
@@ -22,7 +22,7 @@ export const Portfolio = () => (
         title='Rizon.uz'
         text=' Первая компания в Узбекистане, которая производит широкий спектр коллоидных минералов на основе нанотехнологий.'
         adaptive={'Сайт не адаптивным состояние.'}
-        technologies={['Material ui', 'React']}
+        technologies={['React', 'Material ui']}
         url={'https://rizon.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/RizonUz/tree/rizon'}
         animeTime={'1000'}
@@ -30,7 +30,7 @@ export const Portfolio = () => (
       <ProjectItem
         title='Weather react project'
         text=' Это приложение предоставляет национальный и местный прогноз погоды для городов.'
-        technologies={['Bootstrap', 'React']}
+        technologies={['React', 'Bootstrap',]}
         url={'https://obhavoweather.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/Weather_App_React/tree/weather'}
         animeTime={'1200'}
@@ -39,10 +39,19 @@ export const Portfolio = () => (
         title='Todo App(Typescript)'
         text='Это простое приложение, которое вы можете создаст `todo`.'
         adaptive={'Приложение в адаптивным состояние.'}
-        technologies={['Materialize', 'React']}
+        technologies={['React', 'Materialize']}
         url={'https://todoappts.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/todo_app_typescript/tree/todo'}
         animeTime={'1400'}
+      />
+      <ProjectItem
+        title='QRCode | React App'
+        text='Это простое приложение, которое представит вам `QRCode`.'
+        adaptive={'Приложение в адаптивным состояние.'}
+        technologies={['React', 'Bootstrap']}
+        url={'https://qrcode-21.netlify.app/'}
+        urlGithub={'https://github.com/Ibragimovrustam21/QRCode/tree/qrcode'}
+        animeTime={'1600'}
       />
     </div>
   </div>
