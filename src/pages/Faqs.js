@@ -22,7 +22,7 @@ export const Faqs = () => (
         <p>Да, я учусь в Ташкентском государственном университете транспорта.</p>
       </div>
       <div className='questions' {...animateUp} data-aos-duration='1200'>
-        <h4><span className='far fa-circle' /> Где вы изучили программирование?</h4>
+        <h4><span className='far fa-circle' /> Где вы изучали программирование?</h4>
         <p>Я изучал программирование в социальных сетях, включая Youtube.com, Udemy.com и PDP IT Academy.</p>
       </div>
     </div>

@@ -18,16 +18,16 @@ export const About = () => (
           Одна из моих самых больших целей - стать сильнейшим программистом и создать свой собственный стартап.
         </p>
         <p {...animateUp} data-aos-duration='800'>Мои скилы:</p>
-        <ul >
-          <li {...animateUp} data-aos-duration='1000'>HTML</li>
-          <li {...animateUp} data-aos-duration='1200'>CSS / SASS</li>
-          <li {...animateUp} data-aos-duration='1400'>Bootstrap</li>
-          <li {...animateUp} data-aos-duration='1600'>Material ui</li>
-          <li {...animateUp} data-aos-duration='1800'>Git</li>
-          <li {...animateUp} data-aos-duration='2000'>JavaScript (ES6+)</li>
-          <li {...animateUp} data-aos-duration='2200'>Jquery</li>
-          <li {...animateUp} data-aos-duration='2400' >React js (Redux,Xook)</li>
-          <li {...animateUp} data-aos-duration='2600'>Next js</li>
+        <ul {...animateUp} data-aos-duration='1000'>
+          <li>HTML</li>
+          <li>CSS / SASS</li>
+          <li>Bootstrap</li>
+          <li>Material ui</li>
+          <li>JavaScript (ES6+)</li>
+          <li>Jquery</li>
+          <li>React js (Redux,Xook)</li>
+          <li>Next js</li>
+          <li>Git</li>
         </ul>
       </div>
       <div className='my-photo'>

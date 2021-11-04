@@ -47,7 +47,7 @@ export const Portfolio = () => (
 
       />
       <ProjectItem
-        title='QRCode | React App'
+        title='QRCode | React'
         text='Это простое приложение, которое представит вам QRCode.'
         adaptive={'Приложение в адаптивным состояние.'}
         technologies={['React', 'Bootstrap']}
