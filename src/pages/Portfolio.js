@@ -43,6 +43,8 @@ export const Portfolio = () => (
         technologies={['React', 'Materialize']}
         url={'https://todoappts.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/todo_app_typescript/tree/todo'}
+        animeTime={'1400'}
+
       />
       <ProjectItem
         title='QRCode | React App'
@@ -51,6 +53,8 @@ export const Portfolio = () => (
         technologies={['React', 'Bootstrap']}
         url={'https://qrcode-21.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/QRCode/tree/qrcode'}
+        animeTime={'1600'}
+
       />
       <ProjectItem
         title='You Tube Clone version | React'
@@ -59,6 +63,8 @@ export const Portfolio = () => (
         technologies={['React', 'Bootstrap']}
         url={'https://youtubeclone-21.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/you_tube_clone/tree/youtube'}
+        animeTime={'1800'}
+
       />
       <ProjectItem
         title='Cryptocurrency Finance Price | React'
