@@ -30,6 +30,7 @@ export const Portfolio = () => (
       <ProjectItem
         title='Weather react project | React'
         text=' Это приложение предоставляет национальный и местный прогноз погоды для городов.'
+        adaptive={'Приложение в адаптивным состояние.'}
         technologies={['React', 'Bootstrap',]}
         url={'https://obhavoweather.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/Weather_App_React/tree/weather'}
@@ -58,6 +59,14 @@ export const Portfolio = () => (
         technologies={['React', 'Bootstrap']}
         url={'https://youtubeclone-21.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/you_tube_clone/tree/youtube'}
+      />
+      <ProjectItem
+        title='Cryptocurrency Finance Price | React'
+        text='Это простое приложение, которое представит вам Cryptocurrency Finance Price.'
+        adaptive={'Приложение не адаптивным состояние.'}
+        technologies={['React', 'Bootstrap']}
+        url={'https://cryptocurrency-21.netlify.app/'}
+        urlGithub={'https://github.com/Ibragimovrustam21/Cryptocurrency-Finance-Price/tree/crypto'}
       />
     </div>
   </div>
