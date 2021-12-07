@@ -13,7 +13,6 @@ const Navbar = () => {
   })
 
   const navActive = () => {
-    console.log(window.innerWidth < 990);
     if (window.innerWidth < 990) {
       const hamburger = document.querySelector(".hamburger");
       const navMenu = document.querySelector(".navbar-menu-group");
@@ -23,7 +22,6 @@ const Navbar = () => {
       hamburger.classList.toggle("active");
       navMenu.classList.toggle("nav-active");
     }
-
   }
   return (
     <>

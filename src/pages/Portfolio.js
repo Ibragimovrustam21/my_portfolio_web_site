@@ -19,13 +19,22 @@ export const Portfolio = () => (
         animeTime={'800'}
       />
       <ProjectItem
+        title='Online Shopping | React (Redux toolkit)'
+        text='С помощи этого сайта вы можете купить качественные товары не выходя из дома.'
+        adaptive={'Сайт в адаптивным состояние.'}
+        technologies={['React', 'Bootstrap']}
+        url={'https://e-commerce-21.netlify.app/'}
+        urlGithub={'https://github.com/Ibragimovrustam21/e-commerce/tree/master '}
+        animeTime={'1000'}
+      />
+      <ProjectItem
         title='Rizon.uz | React'
         text=' Первая компания в Узбекистане, которая производит широкий спектр коллоидных минералов на основе нанотехнологий.'
         adaptive={'Сайт не адаптивным состояние.'}
         technologies={['React', 'Material ui']}
         url={'https://rizon.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/RizonUz/tree/rizon'}
-        animeTime={'1000'}
+        animeTime={'1200'}
       />
       <ProjectItem
         title='Weather react project | React'
@@ -34,7 +43,7 @@ export const Portfolio = () => (
         technologies={['React', 'Bootstrap',]}
         url={'https://obhavoweather.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/Weather_App_React/tree/weather'}
-        animeTime={'1200'}
+        // animeTime={'1400'}
       />
       <ProjectItem
         title='Todo App | Typescript'
@@ -43,7 +52,7 @@ export const Portfolio = () => (
         technologies={['React', 'Materialize']}
         url={'https://todoappts.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/todo_app_typescript/tree/todo'}
-        animeTime={'1400'}
+        // animeTime={'1600'}
 
       />
       <ProjectItem
@@ -53,7 +62,7 @@ export const Portfolio = () => (
         technologies={['React', 'Bootstrap']}
         url={'https://qrcode-21.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/QRCode/tree/qrcode'}
-        animeTime={'1600'}
+        // animeTime={'1800'}
 
       />
       <ProjectItem
@@ -63,7 +72,7 @@ export const Portfolio = () => (
         technologies={['React', 'Bootstrap']}
         url={'https://youtubeclone-21.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/you_tube_clone/tree/youtube'}
-        animeTime={'1800'}
+        // animeTime={'2000'}
 
       />
       <ProjectItem
@@ -73,6 +82,7 @@ export const Portfolio = () => (
         technologies={['React', 'Bootstrap']}
         url={'https://cryptocurrency-21.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/Cryptocurrency-Finance-Price/tree/crypto'}
+        // animeTime={'2200'}
       />
     </div>
   </div>
