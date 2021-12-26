@@ -1,27 +1,30 @@
 .right-email-block {
-  right: 0
+  right: 0;
 }
 
 .email-name {
-  height: 60%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  width: 20px;
-  padding-bottom: 145px;
-
+  height: 70%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 150px;
 }
 
 .email-name a {
-  text-decoration: none;
   transform: rotate(90deg);
+  text-decoration: none;
   color: #a8b2d1;
   letter-spacing: 1px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-@media only screen and (max-width: 769px){
+
+@media only screen and (max-width: 769px) {
   .right-email-block {
     display: none;
   }
 }
+
+

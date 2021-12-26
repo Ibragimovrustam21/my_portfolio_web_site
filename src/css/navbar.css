@@ -1,15 +1,9 @@
 header {
-  position: fixed;
-  width: 100%;
+  position: absolute;
   top: 0;
+  left: 0;
   right: 0;
-  transition: all 0.5s linear;
-  height: 80px;
-  display: flex;
-  align-items: center;
   z-index: 10 !important;
-  box-sizing: border-box;
-  padding: 0 40px;
 }
 
 .sticky {
@@ -22,11 +16,16 @@ header {
 }
 
 .navbar {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  max-width: 1440px;
   display: flex;
   justify-content: space-between;
-  width: 100%;
   align-items: center;
-  height: 100%;
+  box-sizing: border-box;
+  padding: 0 40px;
+  transition: all 0.5s linear;
 }
 
 .hamburger {
@@ -120,7 +119,7 @@ header {
 }
 
 @media only screen and (max-width: 990px) {
-  
+
   .navbar-menu-group {
     position: absolute;
     background-color: #112240;
@@ -237,16 +236,6 @@ header {
   .navbar-menu-group {
     width: 85%;
   }
-
-  /* .navbar-menu-group button {
-    padding: 12px 18px;
-    font-size: 14px;
-  } */
-
-  /* .navbar-menu-group .navbar-menu-item h3 {
-    font-size: 18px;
-  } */
-
   .navbar-logo-brand img {
     width: 100%;
   }

@@ -8,7 +8,7 @@ const Navbar = () => {
   const [path] = useState('')
 
   window.addEventListener('scroll', function () {
-    let head = document.querySelector('header')
+    let head = document.querySelector('.navbar')
     head.classList.toggle('sticky', window.scrollY > 0)
   })
 

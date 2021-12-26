@@ -22,9 +22,9 @@ export const About = () => (
           <li>HTML</li>
           <li>CSS / SASS</li>
           <li>Bootstrap</li>
-          <li>Material ui</li>
+          <li>Ant Design</li>
+          <li>Material UI</li>
           <li>JavaScript (ES6+)</li>
-          <li>Jquery</li>
           <li>React js (Redux,Xook)</li>
           <li>Next js</li>
           <li>Git</li>

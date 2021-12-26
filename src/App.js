@@ -33,17 +33,18 @@ function App() {
   AOS.init()
   return (
     <BrowserRouter>
-      <Navbar />
-      <Switch>
-        <Route path='/' exact component={HomePage} />
-        <Route path='/about' component={About} />
-        <Route path='/portfolio' component={Portfolio} />
-        <Route path='/faqs' component={Faqs} />
-        <Redirect to='/' />
-      </Switch>
-      <LeftbarIcon />
-      <RightbarEmail />
-      {/* <ScrollTop /> */}
+      <div className='project'>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={HomePage} />
+          <Route path='/about' component={About} />
+          <Route path='/portfolio' component={Portfolio} />
+          <Route path='/faqs' component={Faqs} />
+          <Redirect to='/' />
+        </Switch>
+        <LeftbarIcon />
+        <RightbarEmail />
+      </div>
     </BrowserRouter>
   );
 }
