@@ -28,22 +28,13 @@ export const Portfolio = () => (
         animeTime={'1000'}
       />
       <ProjectItem
-        title='Rizon.uz | React'
-        text=' Первая компания в Узбекистане, которая производит широкий спектр коллоидных минералов на основе нанотехнологий.'
-        adaptive={'Сайт не адаптивным состояние.'}
-        technologies={['React', 'Material ui']}
-        url={'https://rizon.netlify.app/'}
-        urlGithub={'https://github.com/Ibragimovrustam21/RizonUz/tree/rizon'}
-        animeTime={'1200'}
-      />
-      <ProjectItem
         title='Weather react project | React'
         text=' Это приложение предоставляет национальный и местный прогноз погоды для городов.'
         adaptive={'Приложение в адаптивным состояние.'}
         technologies={['React', 'Bootstrap',]}
         url={'https://obhavoweather.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/Weather_App_React/tree/weather'}
-        // animeTime={'1400'}
+        animeTime={'1200'}
       />
       <ProjectItem
         title='Todo App | Typescript'

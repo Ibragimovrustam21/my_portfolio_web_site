@@ -26,7 +26,8 @@ export const About = () => (
           <li>Material UI</li>
           <li>JavaScript (ES6+)</li>
           <li>React js (Redux,Xook)</li>
-          <li>Next js</li>
+          <li>Next js (Basic)</li>
+          <li>Typescript (Basic)</li>
           <li>Git</li>
         </ul>
       </div>
