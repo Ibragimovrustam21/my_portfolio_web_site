@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    padding: 0 40px;
+    padding: 0 30px;
     transition: all 0.5s linear;
 
     .navbar-logo-brand {
@@ -55,6 +55,7 @@ header {
         h4 {
           margin: 0 20px;
           cursor: pointer;
+
           a {
             font-size: 16px;
 
@@ -125,15 +126,15 @@ header {
     position: absolute;
     background-color: #112240;
     height: 100vh;
+    min-width: 30% !important;
     top: 0;
     right: 0;
     bottom: 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     transform: translateX(100%);
     transition: all 0.7s ease;
-    padding-top: 70px;
     z-index: 10;
     filter: none !important;
   }
@@ -184,11 +185,15 @@ header {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
+  .btn-link {
+    margin: 20px 0;
+  }
 }
 
 @media (min-width:0) and (max-width:446.9px) {
   .navbar-menu-group {
-    width: 70%;
+    width: 60% !important;
   }
 
   .navbar-logo-brand {
@@ -201,16 +206,8 @@ header {
 }
 
 @media (min-width:447px) and (max-width:768.9px) {
-  .navbar-logo-brand {
-    width: auto;
-  }
-
   .navbar-menu-group {
-    width: 50%;
-  }
-
-  .navbar-logo-brand img {
-    width: 100%;
+    width: 40% !important;
   }
 }
 
@@ -224,7 +221,7 @@ header {
   }
 
   .navbar-menu-group {
-    width: 40%;
+    width: 60%;
   }
 
 }

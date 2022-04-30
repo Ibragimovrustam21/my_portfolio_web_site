@@ -11,7 +11,6 @@ const Navbar = () => {
 
   const navActive = () => {
     if (window.innerWidth < 990) {
-      console.log('innerwidth');
       const hamburger = document.querySelector(".hamburger");
       const navMenu = document.querySelector(".navbar-menu-group");
       const blurback = document.querySelector('.blur-background')
@@ -21,7 +20,7 @@ const Navbar = () => {
       navMenu.classList.toggle("nav-active");
     }
   }
-  
+
   return (
     <>
       <div className='blur-background'></div>
@@ -34,18 +33,26 @@ const Navbar = () => {
           </div>
           <div className='navbar-menu-group'>
             <div className='navbar-menu-item'>
-              <h4 className='hoverLink'>
-                <Link to='/' onClick={navActive}><span>01.</span> Главный</Link>
-              </h4>
-              <h4 className='hoverLink'>
-                <Link to='/about' onClick={navActive} ><span>02.</span> Про меня</Link>
-              </h4>
-              <h4 className='hoverLink'>
-                <Link to='/portfolio' onClick={navActive}><span>03.</span> Портфолио</Link>
-              </h4>
-              <h4 className='hoverLink' >
-                <Link to='/faqs' onClick={navActive}><span>04.</span> Вопросы</Link>
-              </h4>
+              <div>
+                <h4 className='hoverLink'>
+                  <Link to='/' onClick={navActive}><span>01.</span> Главный</Link>
+                </h4>
+              </div>
+              <div>
+                <h4 className='hoverLink'>
+                  <Link to='/about' onClick={navActive} ><span>02.</span> Про меня</Link>
+                </h4>
+              </div>
+              <div>
+                <h4 className='hoverLink'>
+                  <Link to='/portfolio' onClick={navActive}><span>03.</span> Портфолио</Link>
+                </h4>
+              </div>
+              <div>
+                <h4 className='hoverLink' >
+                  <Link to='/faqs' onClick={navActive}><span>04.</span> Вопросы</Link>
+                </h4>
+              </div>
             </div>
             <a href='https://ibrag1movresume.netlify.app/' className='btn-link'>Резюме</a>
           </div>

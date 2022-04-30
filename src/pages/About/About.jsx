@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.scss'
-import { animateLeft, animateUp } from '../../Settings/Animation';
+import { animateUp } from '../../Settings/Animation';
 import user_img from '../../img/photo_2021-10-18_06-27-00.jpg'
 import { Divider } from 'antd';
 
@@ -33,7 +33,7 @@ const About = () => (
         </ul>
       </div>
       <div className='my-photo'>
-        <img src={user_img} alt='' {...animateLeft} data-aos-duration='800' />
+        <img src={user_img} alt='' />
       </div>
     </div>
   </div>
