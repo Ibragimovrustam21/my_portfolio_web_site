@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { animateDown } from '../../Settings/Animation'
-import './navbar.scss'
 import logo from '../../img/LogoMakr-2dsx6X.png'
+import './navbar.scss'
 
 const Navbar = () => {
   const [path] = useState('')
