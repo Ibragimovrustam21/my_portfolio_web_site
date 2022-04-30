@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../img/LogoMakr-2dsx6X.png'
 import './navbar.scss'
 
 const Navbar = () => {
-  const [path] = useState('')
-
   window.addEventListener('scroll', function () {
     let head = document.querySelector('.navbar')
     head.classList.toggle('sticky', window.scrollY > 0)
@@ -13,6 +11,7 @@ const Navbar = () => {
 
   const navActive = () => {
     if (window.innerWidth < 990) {
+      console.log('innerwidth');
       const hamburger = document.querySelector(".hamburger");
       const navMenu = document.querySelector(".navbar-menu-group");
       const blurback = document.querySelector('.blur-background')
@@ -22,10 +21,11 @@ const Navbar = () => {
       navMenu.classList.toggle("nav-active");
     }
   }
+  
   return (
     <>
       <div className='blur-background'></div>
-      <header className={path}>
+      <header>
         <div className='navbar'>
           <div className='navbar-logo-brand'>
             <Link to='/'>
