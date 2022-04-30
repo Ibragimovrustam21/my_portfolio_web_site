@@ -1,8 +1,8 @@
 import React from 'react';
-import { animateRight } from '../App';
-import '../css/leftbar.css'
+import { animateRight } from '../../Settings/Animation';
+import './sidebar.scss'
 
-export const LeftbarIcon = () => (
+const SideBar = () => (
   <div className='left-and-right-bar left-icon-block'>
     <ul>
       <li {...animateRight} data-aos-duration='1800'><a href='https://www.instagram.com/ibrag1movrustam/'><span className='fab fa-instagram'></span></a></li>
@@ -14,4 +14,5 @@ export const LeftbarIcon = () => (
   </div>
 );
 
+export default SideBar
 

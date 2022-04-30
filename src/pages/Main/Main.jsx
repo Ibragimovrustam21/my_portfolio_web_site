@@ -1,9 +1,9 @@
 import React from 'react';
-import '../css/home.css'
-import { animateUp } from '../App'
+import './main.scss'
+import { animateUp } from '../../Settings/Animation'
 import { Link } from 'react-router-dom';
 
-export const HomePage = () => {
+const Main = () => {
   return (
     <div className='content home-page'>
       <h3 {...animateUp} data-aos-duration="600">Привет, Я</h3>
@@ -13,3 +13,4 @@ export const HomePage = () => {
     </div>
   )
 }
+export default Main

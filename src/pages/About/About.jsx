@@ -1,13 +1,15 @@
 import React from 'react';
-import '../css/about.css'
-import { animateLeft, animateUp } from '../App';
-import user_img from '../user photo/photo_2021-10-18_06-27-00.jpg'
+import './about.scss'
+import { animateLeft, animateUp } from '../../Settings/Animation';
+import user_img from '../../img/photo_2021-10-18_06-27-00.jpg'
+import { Divider } from 'antd';
 
-export const About = () => (
+const About = () => (
   <div className='content about-page'>
-    <div className='title'>
-      <h3><span>02.</span>Про меня</h3>
-      <div className='horizontal-line' />
+    <div className='divider-box'>
+      <Divider className='title' orientation="left">
+        <h3><span>02.</span>Про меня</h3>
+      </Divider>
     </div>
     <div className='about-me'>
       <div className='my-info'>
@@ -17,7 +19,7 @@ export const About = () => (
           включая Youtube.com, Udemy.com и PDP IT Academy.
           Одна из моих самых больших целей - стать сильнейшим программистом и создать свой собственный стартап.
         </p>
-        <p {...animateUp} data-aos-duration='800'>Мои скилы:</p>
+        <p {...animateUp} data-aos-duration='800'>Мои навыки:</p>
         <ul {...animateUp} data-aos-duration='1000'>
           <li>HTML</li>
           <li>CSS / SASS</li>
@@ -26,7 +28,6 @@ export const About = () => (
           <li>Material UI</li>
           <li>JavaScript (ES6+)</li>
           <li>React js (Redux,Xook)</li>
-          <li>Next js (Basic)</li>
           <li>Typescript (Basic)</li>
           <li>Git</li>
         </ul>
@@ -37,3 +38,5 @@ export const About = () => (
     </div>
   </div>
 );
+
+export default About

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { animateDown } from '../App'
-import '../css/navbar.css'
-import logo from '../logo/LogoMakr-2dsx6X.png'
+import { animateDown } from '../../Settings/Animation'
+import './navbar.scss'
+import logo from '../../img/LogoMakr-2dsx6X.png'
 
 const Navbar = () => {
   const [path] = useState('')
@@ -35,28 +35,20 @@ const Navbar = () => {
           </div>
           <div className='navbar-menu-group'>
             <div className='navbar-menu-item'>
-              <div>
-                <h4 className='hoverLink'  {...animateDown} data-aos-duration="600">
-                  <Link to='/' onClick={navActive}><span>01.</span> Главный</Link>
-                </h4>
-              </div>
-              <div>
-                <h4 className='hoverLink' {...animateDown} data-aos-duration="800">
-                  <Link to='/about' onClick={navActive} ><span>02.</span> Про меня</Link>
-                </h4>
-              </div>
-              <div>
-                <h4 className='hoverLink'  {...animateDown} data-aos-duration="1000">
-                  <Link to='/portfolio' onClick={navActive}><span>03.</span> Портфолио</Link>
-                </h4>
-              </div>
-              <div>
-                <h4 className='hoverLink' {...animateDown} data-aos-duration="1200">
-                  <Link to='/faqs' onClick={navActive}><span>04.</span> Вопросы</Link>
-                </h4>
-              </div>
+              <h4 className='hoverLink'>
+                <Link to='/' onClick={navActive}><span>01.</span> Главный</Link>
+              </h4>
+              <h4 className='hoverLink'>
+                <Link to='/about' onClick={navActive} ><span>02.</span> Про меня</Link>
+              </h4>
+              <h4 className='hoverLink'>
+                <Link to='/portfolio' onClick={navActive}><span>03.</span> Портфолио</Link>
+              </h4>
+              <h4 className='hoverLink' >
+                <Link to='/faqs' onClick={navActive}><span>04.</span> Вопросы</Link>
+              </h4>
             </div>
-            <a href='https://ibrag1movresume.netlify.app/' className='btn-link' {...animateDown} data-aos-duration="1400" >Резюме</a>
+            <a href='https://ibrag1movresume.netlify.app/' className='btn-link'>Резюме</a>
           </div>
           <div className="hamburger" onClick={navActive}>
             <span className="bar" />

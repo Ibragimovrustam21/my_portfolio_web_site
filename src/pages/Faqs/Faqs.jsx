@@ -1,12 +1,14 @@
 import React from 'react'
-import '../css/faqs.css'
-import { animateUp } from '../App'
+import './faqs.scss'
+import { animateUp } from '../../Settings/Animation'
+import { Divider } from 'antd'
 
-export const Faqs = () => (
+const Faqs = () => (
   <div className='content faqs'>
-    <div className='title'>
-      <h3><span>04.</span>Вопросы</h3>
-      <div className='horizontal-line' />
+    <div className='divider-box'>
+      <Divider className='title' orientation="left">
+        <h3><span>04.</span>Вопросы</h3>
+      </Divider>
     </div>
     <div className='questions-block'>
       <div className='questions' {...animateUp} data-aos-duration='600'>
@@ -28,3 +30,4 @@ export const Faqs = () => (
     </div>
   </div>
 )
+export default Faqs

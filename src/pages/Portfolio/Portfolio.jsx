@@ -1,12 +1,14 @@
 import React from 'react';
-import '../css/portfolio.css'
-import { ProjectItem } from '../components/ProjectItem';
+import './portfolio.scss'
+import ProjectItem from '../../components/ProjectItem';
+import { Divider } from 'antd';
 
-export const Portfolio = () => (
+const Portfolio = () => (
   <div className='portfolio content' >
-    <div className='title'>
-      <h3><span>03.</span>Портфолио</h3>
-      <div className='horizontal-line' />
+    <div className='divider-box'>
+      <Divider className='title' orientation="left">
+        <h3><span>03.</span>Портфолио</h3>
+      </Divider>
     </div>
     <div className='my-projects'>
       <ProjectItem
@@ -43,7 +45,7 @@ export const Portfolio = () => (
         technologies={['React', 'Materialize']}
         url={'https://todoappts.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/todo_app_typescript/tree/todo'}
-        // animeTime={'1600'}
+      // animeTime={'1600'}
 
       />
       <ProjectItem
@@ -53,7 +55,7 @@ export const Portfolio = () => (
         technologies={['React', 'Bootstrap']}
         url={'https://qrcode-21.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/QRCode/tree/qrcode'}
-        // animeTime={'1800'}
+      // animeTime={'1800'}
 
       />
       <ProjectItem
@@ -63,7 +65,7 @@ export const Portfolio = () => (
         technologies={['React', 'Bootstrap']}
         url={'https://youtubeclone-21.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/you_tube_clone/tree/youtube'}
-        // animeTime={'2000'}
+      // animeTime={'2000'}
 
       />
       <ProjectItem
@@ -73,8 +75,10 @@ export const Portfolio = () => (
         technologies={['React', 'Bootstrap']}
         url={'https://cryptocurrency-21.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/Cryptocurrency-Finance-Price/tree/crypto'}
-        // animeTime={'2200'}
+      // animeTime={'2200'}
       />
     </div>
   </div>
 );
+
+export default Portfolio
