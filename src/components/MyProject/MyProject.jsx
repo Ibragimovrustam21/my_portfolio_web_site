@@ -1,7 +1,7 @@
 import React from 'react';
 import { animateUp } from '../../settings/Animation';
 
-export const MyProject = ({ title, text, technologies, url, urlGithub, animeTime, adaptive }) => (
+const MyProject = ({ title, text, technologies, url, urlGithub, animeTime, adaptive }) => (
   <a href={url} {...animateUp} data-aos-duration={animeTime}>
     <div className='project-item'>
       <div className='project-item-icon'>
@@ -27,4 +27,5 @@ export const MyProject = ({ title, text, technologies, url, urlGithub, animeTime
     </div>
   </a>
 )
+export default MyProject
 

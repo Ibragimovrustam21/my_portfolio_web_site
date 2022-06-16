@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.scss'
 import { Divider } from 'antd';
-import { MyProject } from '../../components/MyProject/ProjectItem';
+import MyProject from '../../components/MyProject';
 
 const Portfolio = () => (
   <div className='portfolio content' >
