@@ -20,7 +20,7 @@ const MyProject = ({ title, text, technologies, url, urlGithub, animeTime, adapt
       <div className='project-item-technologies'>
         {technologies.map(item => {
           return (
-            <p>{item}</p>
+            <p key={item}>{item}</p>
           )
         })}
       </div>
