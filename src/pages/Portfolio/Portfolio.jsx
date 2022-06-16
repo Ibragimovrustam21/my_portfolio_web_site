@@ -1,7 +1,7 @@
 import React from 'react';
 import './portfolio.scss'
-import ProjectItem from '../../components/ProjectItem';
 import { Divider } from 'antd';
+import { MyProject } from '../../components/MyProject/ProjectItem';
 
 const Portfolio = () => (
   <div className='portfolio content' >
@@ -11,16 +11,16 @@ const Portfolio = () => (
       </Divider>
     </div>
     <div className='my-projects'>
-      <ProjectItem
+      <MyProject
         title='Olmo.uz - Software, App, Start up web site (clone) | React'
         text='Этот сайт сделано во время стажировки.'
         adaptive={'Сайт в адаптивным состояние.'}
         technologies={['React', 'Material ui']}
-        url={'https://olmointernship.netlify.app/'}
+        url={'https://olmo.netlify.app/'}
         urlGithub={'https://github.com/Ibragimovrustam21/olmo'}
         animeTime={'800'}
       />
-      <ProjectItem
+      <MyProject
         title='Online Shopping | React (Redux toolkit)'
         text='С помощи этого сайта вы можете купить качественные товары не выходя из дома.'
         adaptive={'Сайт в адаптивным состояние.'}
@@ -29,7 +29,7 @@ const Portfolio = () => (
         urlGithub={'https://github.com/Ibragimovrustam21/e-commerce/tree/master '}
         animeTime={'1000'}
       />
-      <ProjectItem
+      <MyProject
         title='Weather react project | React'
         text=' Это приложение предоставляет национальный и местный прогноз погоды для городов.'
         adaptive={'Приложение в адаптивным состояние.'}
@@ -38,7 +38,7 @@ const Portfolio = () => (
         urlGithub={'https://github.com/Ibragimovrustam21/Weather_App_React/tree/weather'}
         animeTime={'1200'}
       />
-      <ProjectItem
+      <MyProject
         title='Todo App | Typescript'
         text='Это простое приложение, которое вы можете создать todo.'
         adaptive={'Приложение в адаптивным состояние.'}
@@ -48,7 +48,7 @@ const Portfolio = () => (
       // animeTime={'1600'}
 
       />
-      <ProjectItem
+      <MyProject
         title='QRCode | React'
         text='Это простое приложение, которое представит вам QRCode.'
         adaptive={'Приложение в адаптивным состояние.'}
@@ -58,7 +58,7 @@ const Portfolio = () => (
       // animeTime={'1800'}
 
       />
-      <ProjectItem
+      <MyProject
         title='You Tube Clone version | React'
         text='Этот клон сайта youtube.com.'
         adaptive={'Приложение в адаптивным состояние.'}
@@ -68,7 +68,7 @@ const Portfolio = () => (
       // animeTime={'2000'}
 
       />
-      <ProjectItem
+      <MyProject
         title='Cryptocurrency Finance Price | React'
         text='Это простое приложение, которое представит вам Cryptocurrency Finance Price.'
         adaptive={'Приложение не адаптивным состояние.'}

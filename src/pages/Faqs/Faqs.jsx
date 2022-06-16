@@ -1,6 +1,6 @@
 import React from 'react'
 import './faqs.scss'
-import { animateUp } from '../../Settings/Animation'
+import { animateUp } from '../../settings/Animation'
 import { Divider } from 'antd'
 
 const Faqs = () => (

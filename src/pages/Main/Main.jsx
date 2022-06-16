@@ -1,6 +1,6 @@
 import React from 'react';
 import './main.scss'
-import { animateUp } from '../../Settings/Animation'
+import { animateUp } from '../../settings/Animation'
 import { Link } from 'react-router-dom';
 
 const Main = () => {

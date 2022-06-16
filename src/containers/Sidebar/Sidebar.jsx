@@ -1,5 +1,5 @@
 import React from 'react';
-import { animateRight } from '../../Settings/Animation';
+import { animateRight } from '../../settings/Animation';
 import './sidebar.scss'
 
 const SideBar = () => (

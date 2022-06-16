@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.scss'
-import { animateUp } from '../../Settings/Animation';
-import user_img from '../../img/photo_2021-10-18_06-27-00.jpg'
+import { animateUp } from '../../settings/Animation';
+import my_photo from '../../img/i am.jpg'
 import { Divider } from 'antd';
 
 const About = () => (
@@ -14,10 +14,8 @@ const About = () => (
     <div className='about-me'>
       <div className='my-info'>
         <p {...animateUp} data-aos-duration='600'>
-          Здравствуйте! Меня зовут Рустам. Мне 21 год. Я начал заниматься программированием в 2020 году.
-          В настоящее время я являюсь фронтенд - разработчиком. Я изучал программирование в социальных сетях,
-          включая Youtube.com, Udemy.com и PDP IT Academy.
-          Одна из моих самых больших целей - стать сильнейшим программистом и создать свой собственный стартап.
+          Меня зовут Рустам.В настоящее время я являюсь фронтенд разработчиком.Я изучал программирование в социальных сетях,
+          включая Youtube.com, Udemy.com и PDP IT Academy.Одна из моих самых больших целей - стать сильнейшим программистом и создать свой собственный стартап.
         </p>
         <p {...animateUp} data-aos-duration='800'>Мои навыки:</p>
         <ul {...animateUp} data-aos-duration='1000'>
@@ -33,7 +31,7 @@ const About = () => (
         </ul>
       </div>
       <div className='my-photo'>
-        <img src={user_img} alt='' />
+        <img src={my_photo} alt='' />
       </div>
     </div>
   </div>

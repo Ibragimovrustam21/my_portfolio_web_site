@@ -22,6 +22,7 @@
 
   h3 {
     color: #64ffda;
+    font-size: 22px;
   }
 
   p {
@@ -34,6 +35,11 @@
     width: 15%;
     margin-top: 40px;
     font-size: 18px;
+
+    &:hover {
+      background-color: transparent;
+      color: #64ffda;
+    }
   }
 }
 

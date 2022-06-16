@@ -51,7 +51,6 @@ header {
         display: flex;
         align-items: center;
 
-
         h4 {
           margin: 0 20px;
           cursor: pointer;
@@ -80,6 +79,15 @@ header {
           transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
         }
       }
+
+      a {
+        padding: 8px 15px;
+
+        &:hover {
+          background: transparent;
+          color: #64ffda;
+        }
+      }
     }
   }
 
@@ -94,7 +102,7 @@ header {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    background-color: #8892b0;
   }
 }
 

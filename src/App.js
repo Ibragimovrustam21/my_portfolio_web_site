@@ -6,8 +6,8 @@ import Navbar from './components/Navbar';
 import About from './pages/About';
 import Faqs from './pages/Faqs';
 import Portfolio from './pages/Portfolio';
-import SideBar from './components/Sidebar/Sidebar';
-import Rightbar from './components/Rightbar';
+import SideBar from './containers/Sidebar';
+import Rightbar from './containers/Rightbar';
 
 export const App = () => {
   AOS.init()

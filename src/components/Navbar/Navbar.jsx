@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../img/LogoMakr-2dsx6X.png'
 import './navbar.scss'
+import resume from '../../resume/my_resume.pdf'
 
 const Navbar = () => {
   window.addEventListener('scroll', function () {
@@ -54,7 +55,7 @@ const Navbar = () => {
                 </h4>
               </div>
             </div>
-            <a href='https://ibrag1movresume.netlify.app/' className='btn-link'>Резюме</a>
+            <a href={resume} download={'my_resume.pdf'} className='btn-link'>Резюме</a>
           </div>
           <div className="hamburger" onClick={navActive}>
             <span className="bar" />
