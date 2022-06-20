@@ -2,15 +2,15 @@ import React from 'react';
 import { animateUp } from '../../settings/Animation';
 
 const MyProject = ({ title, text, technologies, url, urlGithub, animeTime, adaptive }) => (
-  <a href={url} {...animateUp} data-aos-duration={animeTime}>
+  <a target='_blank' href={url} {...animateUp} data-aos-duration={animeTime}>
     <div className='project-item'>
       <div className='project-item-icon'>
         <div className='icon-folder'>
           <span className='far fa-folder' />
         </div>
         <div className='icon-source'>
-          <a href={urlGithub}><span className='fab fa-github hoverLink' /></a>
-          <a href={url}><span className='fas fa-external-link-alt hoverLink' /></a>
+          <a target='_blank' href={urlGithub}><span className='fab fa-github hoverLink' /></a>
+          <a target='_blank' href={url}><span className='fas fa-external-link-alt hoverLink' /></a>
         </div>
       </div>
       <div className='project-item-name'>
@@ -27,5 +27,6 @@ const MyProject = ({ title, text, technologies, url, urlGithub, animeTime, adapt
     </div>
   </a>
 )
+
 export default MyProject
 
