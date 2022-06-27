@@ -19,12 +19,12 @@ const About = () => (
         </p>
         <p {...animateUp} data-aos-duration='800'>Мои навыки:</p>
         <ul {...animateUp} data-aos-duration='1000'>
-          <li>HTML</li>
-          <li>CSS / SASS</li>
+          <li>HTML5</li>
+          <li>CSS3 / SASS</li>
           <li>Bootstrap</li>
           <li>Ant Design</li>
           <li>Material UI</li>
-          <li>JavaScript (ES6+)</li>
+          <li>Javascript (ES6+)</li>
           <li>React js (Redux,Xook)</li>
           <li>Typescript (Basic)</li>
           <li>Git</li>
